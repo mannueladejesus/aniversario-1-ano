@@ -1,3 +1,9 @@
+# Tarefas — Atualização da capa de abertura
+
+- [x] Copiar e enviar a nova capa vertical para o armazenamento do projeto.
+- [x] Substituir a arte da tela inicial mantendo a interação de toque e áudio.
+- [x] Validar enquadramento em desktop e mobile e publicar.
+
 # Tarefas — Música do Jardim Encantado
 
 - [x] Criar uma trilha instrumental original, suave e sem vocais.

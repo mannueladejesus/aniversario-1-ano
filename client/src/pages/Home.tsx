@@ -62,14 +62,9 @@ export default function Home() {
         <div className="garden-splash" role="dialog" aria-modal="true" aria-label="Abrir convite">
           <div className="splash-petal petal-a">✿</div>
           <div className="splash-petal petal-b">❀</div>
-          <div className="splash-card">
-            <span className="splash-butterfly" aria-hidden="true">🦋</span>
-            <img className="splash-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
-            <p className="splash-kicker">Mannuella de Jesus</p>
-            <h1>Um jardim encantado<br /><em>espera por você</em></h1>
-            <p className="splash-copy">Entre devagarinho, toque para abrir e deixe a magia florescer.</p>
-            <button className="splash-button" type="button" onClick={startExperience}>🌸 Toque para abrir o convite <span>→</span></button>
-            <span className="splash-code">{`<jardim magia="ativa" />`}</span>
+          <div className="splash-cover-wrap">
+            <img className="splash-cover-image" src="/manus-storage/capa-abertura-mannuella-jardim_999867ee.png" alt="Capa do convite: Um jardim encantado espera por você, com Mannuella como fadinha em um jardim florido." />
+            <button className="splash-cover-button" type="button" onClick={startExperience} aria-label="Toque para abrir o convite e iniciar a música" />
           </div>
         </div>
       )}

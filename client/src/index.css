@@ -139,3 +139,12 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 @keyframes music-pulse { 0%,100% { transform: scale(1); box-shadow: 0 0 0 rgba(246,203,211,0); } 50% { transform: scale(1.12); box-shadow: 0 0 0 6px rgba(246,203,211,.23); } }
 @media (max-width: 520px) { .garden-splash { padding: 15px; } .splash-card { padding: 39px 22px 34px; border-radius: 2.7rem .9rem 2.7rem .9rem; } .splash-card h1 { font-size: clamp(2.65rem, 13vw, 4rem); } .splash-copy { font-size: .94rem; } .splash-button { padding: 13px 14px; font-size: .65rem; } .music-toggle { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); } .music-toggle small { display: none; } }
 @media (prefers-reduced-motion: reduce) { .garden-splash, .splash-button, .splash-butterfly, .splash-petal, .music-toggle.is-playing > span { animation: none; } }
+
+
+/* Capa enviada pelo usuário: a arte completa é preservada em proporção vertical; a CTA original recebe uma área de toque funcional sem duplicar texto. */
+.splash-cover-wrap { position: relative; width: min(100%, 560px); height: min(92vh, 820px); display: grid; place-items: center; overflow: hidden; border-radius: 2.4rem 1rem 2.4rem 1rem; box-shadow: 0 24px 80px rgba(83,62,70,.2); }
+.splash-cover-image { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.splash-cover-button { position: absolute; left: 22%; right: 22%; bottom: 5.6%; height: 8.5%; border: 0; border-radius: 999px; background: transparent; cursor: pointer; }
+.splash-cover-button:hover { box-shadow: 0 0 0 8px rgba(255,250,241,.18); }
+.splash-cover-button:focus-visible { outline: 3px solid var(--berry); outline-offset: 5px; background: rgba(255,250,241,.12); }
+@media (max-width: 600px) { .splash-cover-wrap { width: min(100%, 560px); height: 94vh; border-radius: 1.5rem .7rem 1.5rem .7rem; } .splash-cover-button { left: 21%; right: 21%; bottom: 5%; height: 9%; } }

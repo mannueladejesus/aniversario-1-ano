@@ -1,7 +1,6 @@
-# Tarefas — Composição encantada sem cortes
+# Tarefas — Preenchimento da composição
 
-- [x] Criar nova composição com a Mannuella inteira.
-- [x] Restaurar o cenário de Jardim Encantado.
-- [x] Integrar a composição na primeira página.
-- [x] Validar celular e navegador.
-- [x] Publicar a nova versão.
+- [x] Ajustar o cenário para preencher o topo e a base da imagem.
+- [x] Manter a Mannuella inteira e visível.
+- [x] Corrigir o enquadramento em celular e navegador.
+- [x] Validar e publicar a nova versão.

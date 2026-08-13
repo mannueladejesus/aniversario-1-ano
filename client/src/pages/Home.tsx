@@ -10,7 +10,7 @@ export default function Home() {
   const [magicBurst, setMagicBurst] = useState(false);
   const whatsappUrl = useMemo(() => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(RSVP_MESSAGE)}`, []);
   const handleConfirm = () => { setConfirmed(true); window.open(whatsappUrl, "_blank", "noopener,noreferrer"); };
-  const openInformationPage = () => { setMagicBurst(true); window.setTimeout(() => setPage(2), 650); };
+  const openInformationPage = () => { if (magicBurst) return; setMagicBurst(true); window.setTimeout(() => setPage(2), 1250); };
 
   return (
     <main className={`invitation-shell ${page === 2 ? "detail-page" : ""}`}>
@@ -39,7 +39,7 @@ export default function Home() {
       ) : (
         <>
           <section className="address-card information-page">
-            <button className="back-button" type="button" onClick={() => setPage(1)}>← voltar ao convite</button>
+            <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}>← voltar ao convite</button>
             <img className="address-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
             <p className="eyebrow">// evento.config</p>
             <p className="kicker">O jardim da Mannuella espera por você</p>

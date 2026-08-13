@@ -123,3 +123,9 @@
 - [x] Testar celular, navegador e build e publicar.
 
 Validação visual: a capa outpainted agora preenche integralmente o próprio quadro 3:4 em desktop e mobile, sem faixas internas superior ou inferior. A Mannuella, as asas, o texto e o botão permanecem visíveis e proporcionais; as margens restantes são apenas o fundo externo da tela, não bordas da imagem.
+
+# Tarefas — Envio para Git remoto
+
+- [ ] Verificar Git local, remote e branch.
+- [ ] Criar commit com todo o projeto necessário.
+- [ ] Enviar para https://github.com/mannueladejesus/aniversario-1-ano.git e confirmar.

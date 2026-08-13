@@ -1,7 +1,7 @@
-# Tarefas — Asas completas na primeira página
+# Tarefas — Imagem completa na primeira página
 
-- [x] Criar reenquadramento com as duas asas totalmente visíveis.
+- [x] Ajustar a proporção do quadro da primeira página.
+- [x] Mostrar as duas asas completas sem cortes.
 - [x] Manter a borboleta e o Jardim Encantado.
 - [x] Não alterar a segunda página.
-- [x] Validar celular e navegador.
-- [x] Publicar a correção.
+- [x] Validar em celular e navegador e publicar.

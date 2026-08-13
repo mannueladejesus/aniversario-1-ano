@@ -1,6 +1,6 @@
-# Tarefas — Borboleta visível
+# Tarefas — Foto na segunda página
 
-- [x] Reposicionar a borboleta próxima às mãos da Mannuella.
-- [x] Garantir que ela fique visível em desktop e celular.
-- [x] Adicionar brilho e movimento suaves.
-- [x] Validar e publicar a correção.
+- [x] Preparar a nova foto enviada.
+- [x] Inserir a foto na segunda página junto das informações.
+- [x] Garantir que a Mannuella apareça inteira em celular e navegador.
+- [x] Validar e publicar a nova versão.

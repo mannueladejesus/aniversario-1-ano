@@ -1,8 +1,7 @@
-# Tarefas — Outpainting lateral sem bordas
+# Tarefas — Aproximação sutil da Mannuella
 
-- [x] Preparar a composição horizontal da segunda página.
-- [x] Expandir generativamente o jardim para as laterais.
-- [x] Preservar 100% da criança e da imagem original.
-- [x] Remover `object-fit: contain` e preencher 100% da largura.
-- [x] Aplicar a regra às demais fotos e validar todas as páginas.
-- [x] Publicar a correção.
+- [x] Gerar uma versão com a Mannuella levemente maior.
+- [x] Preservar pés, asas, cabeça, borboleta e jardim expandido.
+- [x] Manter a proporção natural e evitar zoom excessivo.
+- [x] Integrar somente na segunda página.
+- [x] Validar e publicar o ajuste.

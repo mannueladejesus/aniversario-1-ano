@@ -1,3 +1,9 @@
+# Tarefas — Balão central de 1 aninho
+
+- [x] Mover o balão para o topo central.
+- [x] Garantir que “Mannuella de Jesus” permaneça totalmente visível.
+- [x] Validar responsividade e publicar.
+
 # Tarefas — Balão de 1 aninho
 
 - [x] Restaurar o posicionamento original do balão na segunda página.

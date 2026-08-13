@@ -1,3 +1,10 @@
+# Tarefas — Refinamento conforme arquivo enviado
+
+- [x] Suavizar o fundo como marca d’água com blur, baixa saturação e camada creme/rosé.
+- [x] Substituir a casinha por um elemento floral/portão no botão de retorno.
+- [x] Preservar textos, dados, layout, funcionalidades e responsividade.
+- [x] Validar e publicar.
+
 # Tarefas — Ajuste de contraste e ícone da segunda página
 
 - [x] Escurecer o fundo mantendo o Jardim Encantado visível.

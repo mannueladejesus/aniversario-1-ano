@@ -92,7 +92,7 @@ export default function Home() {
           </>
         ) : (
           <section className="address-card information-page">
-            <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}>← voltar ao convite</button>
+            <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}><span className="return-garden-mark" aria-hidden="true">✿</span><span>← voltar ao convite</span></button>
             <img className="address-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
             <p className="kicker">O jardim da Mannuella espera por você</p>
             <h1>Informações<br /><em>da celebração</em></h1>

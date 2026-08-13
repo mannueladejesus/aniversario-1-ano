@@ -1,7 +1,7 @@
-# Tarefas — Clique encantado
+# Tarefas — Ícone de 1 aninho em destaque
 
-- [x] Criar partículas de pó de fada no clique.
-- [x] Adicionar brilho e feedback visual ao botão.
-- [x] Navegar para a segunda página após o efeito.
-- [x] Respeitar redução de movimento e validar o build.
+- [x] Aumentar e reposicionar o ícone de 1 aninho.
+- [x] Adicionar movimento fofo de flutuação.
+- [x] Adicionar brilho e pequenos detalhes florais.
+- [x] Validar no celular e navegador.
 - [x] Publicar a nova versão.

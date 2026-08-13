@@ -1,3 +1,15 @@
+# Tarefas — Reequilíbrio visual e adaptação mobile
+
+- [x] Reduzir cobertura das caixas e revelar a Mannuella no jardim.
+- [x] Adaptar capa, segunda página, botões, textos e música para mobile.
+- [x] Validar em mobile e desktop e publicar.
+
+# Tarefas — Reequilíbrio visual da segunda página
+
+- [x] Reduzir opacidade, tamanho e cobertura das caixas de texto.
+- [x] Reorganizar título e cartões para revelar rosto, borboleta e vestido.
+- [x] Validar leitura e publicar.
+
 # Tarefas — Fundo integral da segunda página
 
 - [x] Ajustar o fundo para mostrar a imagem completa sem cortes.

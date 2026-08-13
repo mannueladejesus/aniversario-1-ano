@@ -1,3 +1,9 @@
+# Tarefas — Atualização do fundo da segunda página
+
+- [x] Enviar a nova imagem para o armazenamento do projeto.
+- [x] Usar a imagem como fundo integral e manter as informações legíveis.
+- [x] Validar desktop/mobile e publicar.
+
 # Tarefas — Correção de preenchimento da capa
 
 - [x] Ajustar o enquadramento para preencher 100% da abertura sem deformação.

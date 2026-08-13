@@ -1,6 +1,7 @@
-# Tarefas — Foto na segunda página
+# Tarefas — Jardim Encantado na segunda página
 
-- [x] Preparar a nova foto enviada.
-- [x] Inserir a foto na segunda página junto das informações.
-- [x] Garantir que a Mannuella apareça inteira em celular e navegador.
-- [x] Validar e publicar a nova versão.
+- [x] Criar cenário encantado ao redor da Mannuella.
+- [x] Preservar a identidade, roupa, asas e pose da criança.
+- [x] Integrar a nova composição à segunda página.
+- [x] Validar celular e navegador.
+- [x] Publicar a nova versão.

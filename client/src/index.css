@@ -88,3 +88,21 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
     object-fit: contain;
   }
 }
+
+/* A segunda página usa outpainting horizontal real: a própria imagem preenche a largura, sem contain, sem faixas e sem corte da imagem central. */
+.information-page .information-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: initial;
+  object-position: center;
+  display: block;
+}
+@media (max-width: 760px) {
+  .information-page .information-photo {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: initial;
+  }
+}

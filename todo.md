@@ -1,6 +1,6 @@
-# Tarefas — Preenchimento da composição
+# Tarefas — Borboleta visível
 
-- [x] Ajustar o cenário para preencher o topo e a base da imagem.
-- [x] Manter a Mannuella inteira e visível.
-- [x] Corrigir o enquadramento em celular e navegador.
-- [x] Validar e publicar a nova versão.
+- [x] Reposicionar a borboleta próxima às mãos da Mannuella.
+- [x] Garantir que ela fique visível em desktop e celular.
+- [x] Adicionar brilho e movimento suaves.
+- [x] Validar e publicar a correção.

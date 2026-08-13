@@ -78,7 +78,6 @@ export default function Home() {
                 <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
               </div>
               <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>
-                <img className="brand-mark" src="/manus-storage/mannuela-logo_c99a2ac5.webp" alt="" />
                 <p className="kicker">O jardim da nossa vida floresceu</p>
                 <h1>Mannuella<br /><em>de Jesus</em></h1>
                 <p className="hero-description">Há um ano, um pequeno milagre chegou para colorir nossos dias. Entre risadas, descobertas e abraços apertados, nossa pequena Mannuella completa seu primeiro ano — e esta história fica ainda mais bonita quando você faz parte dela.</p>
@@ -93,7 +92,6 @@ export default function Home() {
         ) : (
           <section className="address-card information-page">
             <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}><span className="return-garden-mark" aria-hidden="true">✿</span><span>← voltar ao convite</span></button>
-            <img className="address-mark" src="/manus-storage/mannuela-logo_c99a2ac5.webp" alt="" />
             <p className="kicker">O jardim da Mannuella espera por você</p>
             <h1>Informações<br /><em>da celebração</em></h1>
             <div className="address-divider">✦　✿　✦</div>

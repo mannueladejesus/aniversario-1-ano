@@ -1,3 +1,9 @@
+# Tarefas — Remoção do desenho verde
+
+- [x] Localizar e remover todas as ocorrências do desenho verde.
+- [x] Validar que Mannuella, textos e funcionalidades permanecem intactos.
+- [x] Publicar a correção.
+
 # Tarefas — Enquadramento integral da segunda página
 
 - [x] Ajustar o fundo para mostrar pés, asinhas e borboleta sem cortes.

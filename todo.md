@@ -1,7 +1,7 @@
-# Tarefas — Nova composição da Mannuela
+# Tarefas — Segunda página do convite
 
-- [x] Editar a nova foto mantendo a Mannuela alcançando a borboleta.
-- [x] Criar um cenário de jardim encantado integrado e natural.
-- [x] Substituir o hero do convite pela nova composição.
-- [x] Ajustar brilho e movimento da borboleta de forma sutil.
+- [x] Criar a segunda página de detalhes do endereço.
+- [x] Exibir o endereço completo informado pelo responsável.
+- [x] Adicionar navegação clara entre a primeira e a segunda página.
+- [x] Ajustar o layout para celular e navegador.
 - [x] Testar e salvar a nova versão.

@@ -1,3 +1,9 @@
+# Tarefas — Organização criativa da segunda página
+
+- [x] Reorganizar título, cards, endereço, mensagem e confirmação.
+- [x] Integrar o status dentro da composição, sem ficar fora do convite.
+- [x] Validar mobile e publicar.
+
 # Tarefas — Reequilíbrio visual e adaptação mobile
 
 - [x] Reduzir cobertura das caixas e revelar a Mannuella no jardim.

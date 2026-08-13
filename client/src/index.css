@@ -106,3 +106,36 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
     object-fit: initial;
   }
 }
+
+
+/* Música e abertura: uma camada inicial acolhedora libera o áudio por gesto; o controle permanece discreto e fixo durante a navegação. */
+.garden-splash { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; overflow: hidden; padding: 24px; background: radial-gradient(circle at 22% 18%, rgba(246,203,211,.7), transparent 30%), radial-gradient(circle at 82% 80%, rgba(143,201,177,.56), transparent 34%), rgba(248,242,231,.98); animation: splash-in .5s ease-out both; }
+.garden-splash::before { content: ''; position: absolute; inset: 0; opacity: .24; pointer-events: none; background-image: url('/manus-storage/mannuela-botanical-pattern_78176cab.png'); background-size: 390px; mix-blend-mode: multiply; }
+.splash-card { position: relative; width: min(100%, 560px); padding: clamp(42px, 8vw, 74px) clamp(25px, 7vw, 68px); text-align: center; border: 1px solid rgba(136,91,120,.2); border-radius: 4rem 1.2rem 4rem 1.2rem; background: rgba(255,250,241,.9); box-shadow: 0 24px 80px rgba(83,62,70,.16); }
+.splash-mark { width: 65px; height: 65px; margin-bottom: 12px; object-fit: contain; }
+.splash-kicker { margin: 0 0 13px; color: var(--berry); font-family: 'Space Mono', monospace; font-size: .7rem; letter-spacing: .1em; text-transform: lowercase; }
+.splash-card h1 { max-width: none; font-size: clamp(2.9rem, 8vw, 5.4rem); }
+.splash-card h1 em { color: var(--berry); font-weight: 500; }
+.splash-copy { max-width: 350px; margin: 22px auto 28px; color: #5b4b57; font-size: 1rem; line-height: 1.6; }
+.splash-button { display: inline-flex; align-items: center; gap: 10px; padding: 14px 20px; border: 1px dashed rgba(102,143,125,.68); border-radius: 999px 8px 999px 8px; color: var(--sage); background: rgba(143,201,177,.14); font-family: 'Space Mono', monospace; font-size: .74rem; font-weight: 700; box-shadow: 0 8px 20px rgba(102,143,125,.1); transition: transform .18s ease, background .18s ease, box-shadow .18s ease; animation: button-breathe 2.4s ease-in-out infinite; }
+.splash-button:hover { transform: translateY(-3px); background: rgba(143,201,177,.24); box-shadow: 0 10px 24px rgba(102,143,125,.16); }
+.splash-button:active { transform: scale(.96); }
+.splash-button:focus-visible, .music-toggle:focus-visible { outline: 3px solid var(--berry); outline-offset: 4px; }
+.splash-button span { color: var(--berry); font-size: 1.1rem; }
+.splash-code { display: block; margin-top: 24px; color: rgba(102,143,125,.8); font-family: 'Space Mono', monospace; font-size: .62rem; }
+.splash-butterfly { position: absolute; right: 12%; top: 14%; font-size: 1.7rem; animation: drift 6s ease-in-out infinite; }
+.splash-petal { position: absolute; color: rgba(136,91,120,.52); font-size: 1.8rem; animation: splash-drift 7s ease-in-out infinite; }
+.petal-a { left: 13%; top: 19%; }
+.petal-b { right: 12%; bottom: 18%; animation-delay: -3s; }
+.music-toggle { position: fixed; right: 18px; bottom: max(18px, env(safe-area-inset-bottom)); z-index: 10; display: inline-flex; align-items: center; gap: 7px; min-width: 47px; min-height: 42px; padding: 8px 12px; border: 1px solid rgba(136,91,120,.2); border-radius: 999px 8px 999px 8px; color: var(--berry); background: rgba(255,250,241,.88); box-shadow: 0 8px 24px rgba(83,62,70,.15); backdrop-filter: blur(10px); transition: transform .18s ease, background .18s ease, box-shadow .18s ease; }
+.music-toggle:hover { transform: translateY(-2px); background: rgba(255,250,241,.98); box-shadow: 0 11px 26px rgba(83,62,70,.19); }
+.music-toggle:active { transform: scale(.95); }
+.music-toggle > span { display: grid; place-items: center; width: 23px; height: 23px; border-radius: 50%; background: var(--petal); font-family: Georgia, serif; font-size: 1rem; }
+.music-toggle small { color: var(--sage); font-family: 'Space Mono', monospace; font-size: .59rem; }
+.music-toggle.is-playing > span { animation: music-pulse 1.7s ease-in-out infinite; }
+.is-covered { pointer-events: none; }
+@keyframes splash-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes splash-drift { 0%,100% { transform: translateY(0) rotate(-8deg); opacity: .35; } 50% { transform: translateY(-18px) rotate(12deg); opacity: .75; } }
+@keyframes music-pulse { 0%,100% { transform: scale(1); box-shadow: 0 0 0 rgba(246,203,211,0); } 50% { transform: scale(1.12); box-shadow: 0 0 0 6px rgba(246,203,211,.23); } }
+@media (max-width: 520px) { .garden-splash { padding: 15px; } .splash-card { padding: 39px 22px 34px; border-radius: 2.7rem .9rem 2.7rem .9rem; } .splash-card h1 { font-size: clamp(2.65rem, 13vw, 4rem); } .splash-copy { font-size: .94rem; } .splash-button { padding: 13px 14px; font-size: .65rem; } .music-toggle { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); } .music-toggle small { display: none; } }
+@media (prefers-reduced-motion: reduce) { .garden-splash, .splash-button, .splash-butterfly, .splash-petal, .music-toggle.is-playing > span { animation: none; } }

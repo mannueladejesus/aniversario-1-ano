@@ -1,7 +1,9 @@
-# Tarefas — Aproximação sutil da Mannuella
+# Tarefas — Música do Jardim Encantado
 
-- [x] Gerar uma versão com a Mannuella levemente maior.
-- [x] Preservar pés, asas, cabeça, borboleta e jardim expandido.
-- [x] Manter a proporção natural e evitar zoom excessivo.
-- [x] Integrar somente na segunda página.
-- [x] Validar e publicar o ajuste.
+- [x] Criar uma trilha instrumental original, suave e sem vocais.
+- [x] Preparar o arquivo de áudio para uso no convite.
+- [x] Criar tela inicial “Toque para abrir o convite”.
+- [x] Iniciar a música após o primeiro toque e mantê-la entre páginas.
+- [x] Adicionar controle discreto de pausar e retomar.
+- [x] Preservar o estado da música durante a navegação.
+- [x] Testar celular, navegador e build e publicar.

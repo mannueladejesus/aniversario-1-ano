@@ -57,13 +57,13 @@ export default function Home() {
 
   return (
     <>
-      <audio ref={audioRef} src={MUSIC_SRC} preload="auto" aria-hidden="true" />
+      <audio ref={audioRef} src={MUSIC_SRC} preload="none" aria-hidden="true" />
       {isOpening && (
         <div className="garden-splash" role="dialog" aria-modal="true" aria-label="Abrir convite">
           <div className="splash-petal petal-a">✿</div>
           <div className="splash-petal petal-b">❀</div>
           <div className="splash-cover-wrap">
-            <img className="splash-cover-image" src="/manus-storage/capa-abertura-mannuella-preenchida_63e874e0.png" alt="Capa do convite: Um jardim encantado espera por você, com Mannuella como fadinha em um jardim florido." />
+            <img className="splash-cover-image" src="/manus-storage/capa-abertura-mannuella-preenchida_9225b95f.webp" alt="Capa do convite: Um jardim encantado espera por você, com Mannuella como fadinha em um jardim florido." />
             <button className="splash-cover-button" type="button" onClick={startExperience} aria-label="Toque para abrir o convite e iniciar a música" />
           </div>
         </div>
@@ -74,11 +74,11 @@ export default function Home() {
           <>
             <section className="hero-panel first-page-panel">
               <div className="hero-art natural-scene" aria-label="Mannuella alcançando uma borboleta em um jardim encantado">
-                <img className="natural-scene-image" src="/manus-storage/mannuella-primeira-pagina-outpainting_b79100ba.png" alt="Mannuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
+                <img className="natural-scene-image" src="/manus-storage/mannuella-primeira-pagina-outpainting_285e2cb1.webp" alt="Mannuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
                 <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
               </div>
               <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>
-                <img className="brand-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
+                <img className="brand-mark" src="/manus-storage/mannuela-logo_c99a2ac5.webp" alt="" />
                 <p className="kicker">O jardim da nossa vida floresceu</p>
                 <h1>Mannuella<br /><em>de Jesus</em></h1>
                 <p className="hero-description">Há um ano, um pequeno milagre chegou para colorir nossos dias. Entre risadas, descobertas e abraços apertados, nossa pequena Mannuella completa seu primeiro ano — e esta história fica ainda mais bonita quando você faz parte dela.</p>
@@ -93,7 +93,7 @@ export default function Home() {
         ) : (
           <section className="address-card information-page">
             <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}><span className="return-garden-mark" aria-hidden="true">✿</span><span>← voltar ao convite</span></button>
-            <img className="address-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
+            <img className="address-mark" src="/manus-storage/mannuela-logo_c99a2ac5.webp" alt="" />
             <p className="kicker">O jardim da Mannuella espera por você</p>
             <h1>Informações<br /><em>da celebração</em></h1>
             <div className="address-divider">✦　✿　✦</div>

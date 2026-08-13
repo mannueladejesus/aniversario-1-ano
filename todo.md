@@ -1,3 +1,15 @@
+# Tarefas — Enquadramento integral da segunda página
+
+- [x] Ajustar o fundo para mostrar pés, asinhas e borboleta sem cortes.
+- [x] Preservar nitidez, legibilidade e carregamento otimizado.
+- [x] Validar desktop/mobile e publicar.
+
+# Tarefas — Otimização de carregamento
+
+- [x] Identificar e reduzir os assets mais pesados.
+- [x] Integrar versões otimizadas sem perder a nitidez.
+- [x] Validar carregamento e publicar.
+
 # Tarefas — Fundo 100% limpo da segunda página
 
 - [x] Remover totalmente blur, filtro e expansão artificial do fundo.

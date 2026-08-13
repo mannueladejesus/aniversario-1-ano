@@ -1,3 +1,9 @@
+# Tarefas — Fundo integral da segunda página
+
+- [x] Ajustar o fundo para mostrar a imagem completa sem cortes.
+- [x] Preservar pés, asinhas, borboleta e informações legíveis.
+- [x] Validar e publicar.
+
 # Tarefas — Balão central de 1 aninho
 
 - [x] Mover o balão para o topo central.

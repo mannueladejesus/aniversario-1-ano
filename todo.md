@@ -1,7 +1,7 @@
-# Tarefas — Correção somente da primeira página
+# Tarefas — Asas completas na primeira página
 
-- [x] Restaurar a imagem anterior da segunda página.
-- [x] Corrigir a primeira página com asas e borboleta visíveis.
-- [x] Não alterar novamente a composição da segunda página.
-- [x] Validar as duas páginas em celular e navegador.
+- [x] Criar reenquadramento com as duas asas totalmente visíveis.
+- [x] Manter a borboleta e o Jardim Encantado.
+- [x] Não alterar a segunda página.
+- [x] Validar celular e navegador.
 - [x] Publicar a correção.

@@ -138,6 +138,14 @@ Validação visual: a capa outpainted agora preenche integralmente o próprio qu
 
 # Tarefas — Assets no deploy externo
 
-- [ ] Auditar por que os caminhos /manus-storage não existem no Vercel.
-- [ ] Publicar os assets visuais em caminhos compatíveis com o repositório/build externo.
-- [ ] Atualizar referências e validar a renderização completa no domínio.
+- [x] Auditar por que os caminhos /manus-storage não existem no Vercel.
+- [x] Publicar os assets visuais em caminhos compatíveis com o repositório/build externo.
+- [x] Atualizar referências e validar a renderização completa no domínio.
+
+Validação externa: a branch main do GitHub contém Home.tsx com referências /assets e os seis assets públicos necessários. O domínio público anterior do Vercel ainda responde com referências /manus-storage e a tela vazia, indicando que o alias ainda aponta para uma implantação antiga; o novo preview visualizado exige login no Vercel.
+
+# Tarefas — Prévia do convite no WhatsApp
+
+- [x] Adicionar metadados Open Graph e Twitter Card.
+- [x] Usar a capa pública como imagem de prévia.
+- [x] Validar build e publicar.

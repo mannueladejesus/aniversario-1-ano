@@ -1,3 +1,9 @@
+# Tarefas — Balão de 1 aninho
+
+- [x] Restaurar o posicionamento original do balão na segunda página.
+- [x] Ajustar cor, tipografia e acabamento conforme a referência.
+- [x] Validar responsividade e publicar.
+
 # Tarefas — Remoção do desenho verde
 
 - [x] Localizar e remover todas as ocorrências do desenho verde.

@@ -41,7 +41,6 @@ export default function Home() {
           <section className="address-card information-page">
             <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}>← voltar ao convite</button>
             <img className="address-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
-            <p className="eyebrow">// evento.config</p>
             <p className="kicker">O jardim da Mannuella espera por você</p>
             <h1>Informações<br /><em>da celebração</em></h1>
             <div className="address-divider">✦　✿　✦</div>

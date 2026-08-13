@@ -1,5 +1,5 @@
-# Tarefas — Botão de retorno
+# Tarefas — Limpeza da segunda página
 
-- [x] Aumentar o texto “← voltar ao convite”.
-- [x] Ampliar a área de toque no celular.
-- [x] Validar e publicar a melhoria.
+- [x] Remover “// evento.config”.
+- [x] Validar o build.
+- [x] Publicar a alteração.

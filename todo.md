@@ -1,3 +1,9 @@
+# Tarefas — Data dentro do endereço
+
+- [x] Remover o bloco “horário · horário a confirmar”.
+- [x] Inserir a data 03/10/2026 dentro do bloco do endereço.
+- [x] Validar organização e mobile.
+
 # Tarefas — Organização criativa da segunda página
 
 - [x] Reorganizar título, cards, endereço, mensagem e confirmação.

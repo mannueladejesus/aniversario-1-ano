@@ -95,11 +95,7 @@ export default function Home() {
             <p className="kicker">✦ um dia para florescer juntos ✦</p>
             <h1>Informações<br /><em>da celebração</em></h1>
             <div className="address-divider">✦　✿　✦</div>
-            <div className="detail-grid information-grid">
-              <div className="detail-block"><span className="detail-icon">✿</span><div><span className="detail-label">data</span><strong>03/10/2026</strong></div></div>
-              <div className="detail-block"><span className="detail-icon">☼</span><div><span className="detail-label">horário</span><strong>horário a confirmar</strong></div></div>
-            </div>
-            <div className="address-box"><div><span className="detail-label">local da celebração</span><strong>Rua Giuseppe Piermarini, 521</strong><span>Jardim Icaraí · São Paulo — SP</span><span>CEP 04844-190</span></div></div>
+            <div className="address-box"><div><span className="detail-label">data da celebração</span><strong>03/10/2026</strong><span className="detail-label address-location-label">local da celebração</span><strong>Rua Giuseppe Piermarini, 521</strong><span>Jardim Icaraí · São Paulo — SP</span><span>CEP 04844-190</span></div></div>
             <p className="address-note">Entre flores, abraços e muita magia, vamos celebrar o primeiro aninho da nossa pequena Mannuella.</p>
             <div className="rsvp-note information-status"><span className="code-brace">{`{`}</span><div><span className="detail-label">status</span><strong>{confirmed ? "presença_enviada: true" : "aguardando seu abraço"}</strong></div><span className="code-brace">{`}`}</span></div>
             <button className="next-button rsvp-button" type="button" onClick={handleConfirm}>{confirmed ? "Presença compilada ✓" : "Confirmar presença no WhatsApp ↗"}</button>

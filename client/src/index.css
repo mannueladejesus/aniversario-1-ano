@@ -167,3 +167,6 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 .information-page .information-status { align-self: center; width: min(100%, 330px); box-sizing: border-box; justify-content: center; padding: 11px 16px; border-radius: 999px; text-align: center; }
 .information-page .rsvp-button { margin-top: 12px; } .information-page .detail-label { letter-spacing: .08em; } .information-page .address-divider { opacity: .82; }
 @media (max-width: 760px) { .information-page { min-height: 100svh; padding: 18px 12px 30px; background-position: center center; justify-content: flex-start; } .information-page .back-button { margin-bottom: 10px; } .information-page .address-mark { width: 46px; height: 46px; } .information-page h1 { margin-top: 0; font-size: clamp(2.9rem, 13vw, 4.5rem); } .information-page .detail-grid { gap: 8px; margin-top: 2px; } .information-page .detail-block { padding: 15px 14px; } .information-page .address-box { padding: 16px 14px; } .information-page .address-note { margin: 12px auto; font-size: .88rem; } .information-page .information-status { width: min(100%, 300px); margin-inline: auto; } }
+
+/* Segunda página: data integrada ao endereço, com separação visual compacta e responsiva. */
+.information-page .address-location-label { display: block; margin-top: 14px; }

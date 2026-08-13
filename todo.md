@@ -1,3 +1,9 @@
+# Tarefas — Fundo 100% limpo da segunda página
+
+- [x] Remover totalmente blur, filtro e expansão artificial do fundo.
+- [x] Manter uma camada clara mínima apenas para leitura dos textos.
+- [x] Validar nitidez e publicar.
+
 # Tarefas — Visibilidade da Mannuella na segunda página
 
 - [x] Reforçar a presença da Mannuella no jardim sem perder a leitura dos textos.

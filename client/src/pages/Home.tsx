@@ -3,8 +3,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 const WHATSAPP_NUMBER = "5511944465965";
 const RSVP_MESSAGE = "Olá! Quero confirmar presença no aniversário de 1 ano da Mannuella.";
-const MUSIC_SRC = "/manus-storage/trilha-narracao-jardim-encantado-mannuella_301a9798.mp3";
-const NARRATION_SRC = "/manus-storage/narracao-jardim-encantado-mannuella_25637e2c.wav";
+const MUSIC_SRC = "/assets/trilha-narracao-jardim-encantado-mannuella.mp3";
+const NARRATION_SRC = "/assets/narracao-jardim-encantado-mannuella.mp3";
 
 export default function Home() {
   const [page, setPage] = useState<1 | 2>(1);
@@ -83,7 +83,7 @@ export default function Home() {
           <div className="splash-petal petal-a">✿</div>
           <div className="splash-petal petal-b">❀</div>
           <div className="splash-cover-wrap">
-            <img className="splash-cover-image" src="/manus-storage/capa-abertura-mannuella-preenchida_9225b95f.webp" alt="Capa do convite: Um jardim encantado espera por você, com Mannuella como fadinha em um jardim florido." />
+            <img className="splash-cover-image" src="/assets/capa-abertura-mannuella-preenchida.webp" alt="Capa do convite: Um jardim encantado espera por você, com Mannuella como fadinha em um jardim florido." />
             <button className="splash-cover-button" type="button" onClick={startExperience} aria-label="Toque para abrir o convite e iniciar a música" />
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
           <>
             <section className="hero-panel first-page-panel">
               <div className="hero-art natural-scene" aria-label="Mannuella alcançando uma borboleta em um jardim encantado">
-                <img className="natural-scene-image" src="/manus-storage/mannuella-primeira-pagina-outpainting_285e2cb1.webp" alt="Mannuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
+                <img className="natural-scene-image" src="/assets/mannuella-primeira-pagina-outpainting.webp" alt="Mannuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
                 <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
               </div>
               <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>

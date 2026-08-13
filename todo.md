@@ -132,6 +132,12 @@ Validação visual: a capa outpainted agora preenche integralmente o próprio qu
 
 # Tarefas — Correção do deploy externo
 
-- [ ] Auditar por que o host externo está servindo server/index.ts.
-- [ ] Corrigir configuração de saída e comando de inicialização para servir dist/public.
-- [ ] Validar o deploy e confirmar a aplicação no domínio externo.
+- [x] Auditar por que o host externo está servindo server/index.ts.
+- [x] Corrigir configuração de saída e comando de inicialização para servir dist/public.
+- [x] Validar o deploy e confirmar a aplicação no domínio externo.
+
+# Tarefas — Assets no deploy externo
+
+- [ ] Auditar por que os caminhos /manus-storage não existem no Vercel.
+- [ ] Publicar os assets visuais em caminhos compatíveis com o repositório/build externo.
+- [ ] Atualizar referências e validar a renderização completa no domínio.

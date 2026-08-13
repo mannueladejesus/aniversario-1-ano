@@ -1,6 +1,6 @@
-# Tarefas — Remoção do rodapé da segunda página
+# Tarefas — Nova imagem da primeira página
 
-- [x] Remover “feito com amor”.
-- [x] Remover o símbolo “✦”.
-- [x] Remover “página 02 • informações”.
+- [x] Preparar a nova imagem enviada.
+- [x] Substituir a imagem da primeira página.
+- [x] Ajustar o enquadramento para celular e navegador.
 - [x] Validar o build e publicar.

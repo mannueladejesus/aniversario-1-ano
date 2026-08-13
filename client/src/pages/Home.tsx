@@ -27,12 +27,9 @@ export default function Home() {
       </div>
 
       <section className="hero-panel">
-        <div className="hero-art" aria-label="Mannuela como fadinha no jardim encantado">
-          <img className="hero-backdrop" src="/manus-storage/mannuela-hero_4dece3f0.png" alt="" />
-          <div className="mannuela-fairy">
-            <span className="fairy-sparkle sparkle-a">✦</span><span className="fairy-sparkle sparkle-b">✧</span><span className="fairy-sparkle sparkle-c">✦</span>
-            <img src="/manus-storage/mannuela-fada-web_ae627e41.png" alt="Mannuela usando asas de fada dentro do jardim encantado" />
-          </div>
+        <div className="hero-art natural-scene" aria-label="Mannuela alcançando uma borboleta em um jardim encantado">
+          <img className="natural-scene-image" src="/manus-storage/mannuela-jardim-borboleta_bb6121b5.png" alt="Mannuela com asas de fada alcançando uma borboleta em um jardim florido" />
+          <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
         </div>
         <div className="hero-copy"><span className="brand-seal">M<span>01</span></span>
           <div className="eyebrow"><span className="status-dot" /> build 01.0.0 • jardim encantado</div>

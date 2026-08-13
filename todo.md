@@ -1,7 +1,7 @@
-# Tarefas — Integração da Mannuela no arco
+# Tarefas — Nova composição da Mannuela
 
-- [x] Preparar a foto enviada para uso no convite.
-- [x] Compor a Mannuela dentro do arco floral do hero.
-- [x] Criar movimento sutil e brilho nas asas sem perder a delicadeza.
-- [x] Testar desktop e mobile.
-- [x] Salvar checkpoint da nova versão.
+- [x] Editar a nova foto mantendo a Mannuela alcançando a borboleta.
+- [x] Criar um cenário de jardim encantado integrado e natural.
+- [x] Substituir o hero do convite pela nova composição.
+- [x] Ajustar brilho e movimento da borboleta de forma sutil.
+- [x] Testar e salvar a nova versão.

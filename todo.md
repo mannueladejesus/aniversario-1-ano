@@ -1,3 +1,9 @@
+# Tarefas — Ajuste de contraste e ícone da segunda página
+
+- [x] Escurecer o fundo mantendo o Jardim Encantado visível.
+- [x] Corrigir ou remover o ícone deslocado do endereço.
+- [x] Validar legibilidade e publicar.
+
 # Tarefas — Atualização do fundo da segunda página
 
 - [x] Enviar a nova imagem para o armazenamento do projeto.

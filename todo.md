@@ -1,5 +1,6 @@
-# Tarefas — Limpeza da segunda página
+# Tarefas — Remoção do rodapé da segunda página
 
-- [x] Remover “// evento.config”.
-- [x] Validar o build.
-- [x] Publicar a alteração.
+- [x] Remover “feito com amor”.
+- [x] Remover o símbolo “✦”.
+- [x] Remover “página 02 • informações”.
+- [x] Validar o build e publicar.

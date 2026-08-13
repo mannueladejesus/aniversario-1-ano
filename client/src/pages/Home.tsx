@@ -53,7 +53,6 @@ export default function Home() {
             <div className="rsvp-note information-status"><span className="code-brace">{`{`}</span><div><span className="detail-label">status</span><strong>{confirmed ? "presença_enviada: true" : "aguardando seu abraço"}</strong></div><span className="code-brace">{`}`}</span></div>
             <button className="next-button rsvp-button" type="button" onClick={handleConfirm}>{confirmed ? "Presença compilada ✓" : "Confirmar presença no WhatsApp ↗"}</button>
           </section>
-          <footer className="footer-line"><span>feito com amor</span><span>✦</span><span>página 02 • informações</span></footer>
         </>
       )}
     </main>

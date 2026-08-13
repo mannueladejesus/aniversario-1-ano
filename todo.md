@@ -1,7 +1,7 @@
-# Tarefas — Asas completas na segunda página
+# Tarefas — Correção somente da primeira página
 
-- [x] Criar composição com margem suficiente ao redor das duas asas.
-- [x] Preservar o Jardim Encantado e a identidade da Mannuella.
-- [x] Integrar a imagem sem cortes na segunda página.
-- [x] Validar celular e navegador.
-- [x] Publicar a nova versão.
+- [x] Restaurar a imagem anterior da segunda página.
+- [x] Corrigir a primeira página com asas e borboleta visíveis.
+- [x] Não alterar novamente a composição da segunda página.
+- [x] Validar as duas páginas em celular e navegador.
+- [x] Publicar a correção.

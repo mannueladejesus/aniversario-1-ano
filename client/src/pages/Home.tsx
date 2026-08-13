@@ -20,7 +20,7 @@ export default function Home() {
         <>
           <section className="hero-panel first-page-panel">
             <div className="hero-art natural-scene" aria-label="Mannuella alcançando uma borboleta em um jardim encantado">
-              <img className="natural-scene-image" src="/manus-storage/mannuella-jardim-borboleta-visivel_9b40d45b.png" alt="Mannuella inteira como fadinha alcançando uma borboleta iluminada no Jardim Encantado" />
+              <img className="natural-scene-image" src="/manus-storage/mannuella-primeira-pagina-asas-borboleta_878717ff.png" alt="Mannuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
               <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
             </div>
             <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>
@@ -40,7 +40,7 @@ export default function Home() {
         <>
           <section className="address-card information-page">
             <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}>← voltar ao convite</button>
-            <img className="information-photo" src="/manus-storage/mannuella-segunda-pagina-asas-completas_74322851.png" alt="Mannuella como fadinha no Jardim Encantado com as duas asas completas" />
+            <img className="information-photo" src="/manus-storage/mannuella-segunda-pagina-jardim_23cfeb2f.png" alt="Mannuella como fadinha em um Jardim Encantado" />
             <img className="address-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
             <p className="kicker">O jardim da Mannuella espera por você</p>
             <h1>Informações<br /><em>da celebração</em></h1>

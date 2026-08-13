@@ -154,3 +154,9 @@ Validação externa: a branch main do GitHub contém Home.tsx com referências /
 
 - [x] Localizar e substituir o nome completo pelo nome “Mannuella” em todo o projeto.
 - [x] Validar textos, metadados, build e publicar.
+
+# Tarefas — Remoção do sobrenome nas artes
+
+- [x] Editar a capa para remover “de Jesus” do título e do texto superior.
+- [x] Editar a arte da segunda página para remover as ocorrências visuais do sobrenome.
+- [x] Substituir assets, validar e publicar.

@@ -99,7 +99,7 @@ export default function Home() {
               </div>
               <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>
                 <p className="kicker">O jardim da nossa vida floresceu</p>
-                <h1>Mannuella<br /><em>de Jesus</em></h1>
+                <h1>Mannuella</h1>
                 <p className="hero-description">Há um ano, um pequeno milagre chegou para colorir nossos dias. Entre risadas, descobertas e abraços apertados, nossa pequena Mannuella completa seu primeiro ano — e esta história fica ainda mais bonita quando você faz parte dela.</p>
               </div>
             </section>

@@ -1,6 +1,5 @@
-# Tarefas — Transição e navegação
+# Tarefas — Botão de retorno
 
-- [x] Tornar o brilho e o pó de fada mais longos e perceptíveis.
-- [x] Permitir voltar para a primeira página sem bloquear o próximo clique.
-- [x] Testar ida e volta várias vezes em celular.
-- [x] Validar o build e publicar a correção.
+- [x] Aumentar o texto “← voltar ao convite”.
+- [x] Ampliar a área de toque no celular.
+- [x] Validar e publicar a melhoria.

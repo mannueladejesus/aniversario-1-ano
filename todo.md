@@ -1,6 +1,7 @@
-# Tarefas — Nova imagem da primeira página
+# Tarefas — Composição encantada sem cortes
 
-- [x] Preparar a nova imagem enviada.
-- [x] Substituir a imagem da primeira página.
-- [x] Ajustar o enquadramento para celular e navegador.
-- [x] Validar o build e publicar.
+- [x] Criar nova composição com a Mannuella inteira.
+- [x] Restaurar o cenário de Jardim Encantado.
+- [x] Integrar a composição na primeira página.
+- [x] Validar celular e navegador.
+- [x] Publicar a nova versão.

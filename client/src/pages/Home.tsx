@@ -7,8 +7,10 @@ const RSVP_MESSAGE = "Olá! Quero confirmar presença no aniversário de 1 ano d
 export default function Home() {
   const [page, setPage] = useState<1 | 2>(1);
   const [confirmed, setConfirmed] = useState(false);
+  const [magicBurst, setMagicBurst] = useState(false);
   const whatsappUrl = useMemo(() => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(RSVP_MESSAGE)}`, []);
   const handleConfirm = () => { setConfirmed(true); window.open(whatsappUrl, "_blank", "noopener,noreferrer"); };
+  const openInformationPage = () => { setMagicBurst(true); window.setTimeout(() => setPage(2), 650); };
 
   return (
     <main className={`invitation-shell ${page === 2 ? "detail-page" : ""}`}>
@@ -21,16 +23,17 @@ export default function Home() {
               <img className="natural-scene-image" src="/manus-storage/mannuela-jardim-borboleta_bb6121b5.png" alt="Mannuella com asas de fada alcançando uma borboleta em um jardim florido" />
               <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
             </div>
-            <div className="hero-copy"><span className="brand-seal">M<span>01</span></span>
-              <div className="eyebrow"><span className="status-dot" /> build 01.0.0 • jardim encantado</div>
+            <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>
               <img className="brand-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
               <p className="kicker">O jardim da nossa vida floresceu</p>
               <h1>Mannuella<br /><em>de Jesus</em></h1>
               <p className="hero-description">Há um ano, um pequeno milagre chegou para colorir nossos dias. Entre risadas, descobertas e abraços apertados, nossa pequena Mannuella completa seu primeiro ano — e esta história fica ainda mais bonita quando você faz parte dela.</p>
-              <div className="code-chip">versão 1.0 • coração cheio</div>
             </div>
           </section>
-          <button className="page-two-link primary-page-link" type="button" onClick={() => setPage(2)}>abrir informações da celebração <span>→</span></button>
+          <div className={`page-link-wrap ${magicBurst ? "is-bursting" : ""}`}>
+            {magicBurst && <span className="magic-burst" aria-hidden="true"><i>✦</i><i>✧</i><i>✿</i><i>✦</i><i>·</i><i>·</i></span>}
+            <button className="page-two-link primary-page-link" type="button" onClick={openInformationPage} disabled={magicBurst}>abrir informações da celebração <span>→</span></button>
+          </div>
           <footer className="footer-line"><span>feito com amor</span><span>✦</span><span>página 01 • convite</span></footer>
         </>
       ) : (

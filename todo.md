@@ -1,5 +1,7 @@
-# Tarefas — Correção do nome
+# Tarefas — Clique encantado
 
-- [x] Atualizar “Mannuela” para “Mannuella” em todos os textos.
-- [x] Validar a primeira e a segunda página.
-- [x] Publicar a versão corrigida.
+- [x] Criar partículas de pó de fada no clique.
+- [x] Adicionar brilho e feedback visual ao botão.
+- [x] Navegar para a segunda página após o efeito.
+- [x] Respeitar redução de movimento e validar o build.
+- [x] Publicar a nova versão.

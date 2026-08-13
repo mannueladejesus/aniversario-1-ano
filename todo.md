@@ -1,3 +1,8 @@
+# Tarefas — Reforço da Mannuella na segunda página
+
+- [x] Aumentar a presença visual da Mannuella sem perder o efeito suave.
+- [x] Preservar a legibilidade das informações e validar o build.
+
 # Tarefas — Refinamento conforme arquivo enviado
 
 - [x] Suavizar o fundo como marca d’água com blur, baixa saturação e camada creme/rosé.

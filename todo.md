@@ -1,3 +1,11 @@
+# Tarefas — Abertura narrada do Jardim Encantado
+
+- [x] Preparar narração infantil original e roteiro da história.
+- [x] Criar ou preparar trilha mágica própria e mixar abaixo da voz.
+- [x] Integrar narração no primeiro toque, sem reiniciar música entre páginas.
+- [x] Validar volume, pausa/retomada e mobile.
+- [x] Publicar.
+
 # Tarefas — Data dentro do endereço
 
 - [x] Remover o bloco “horário · horário a confirmar”.

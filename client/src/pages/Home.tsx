@@ -3,7 +3,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 const WHATSAPP_NUMBER = "5511944465965";
 const RSVP_MESSAGE = "Olá! Quero confirmar presença no aniversário de 1 ano da Mannuella.";
-const MUSIC_SRC = "/manus-storage/jardim-encantado-mannuella_34ede4bd.mp3";
+const MUSIC_SRC = "/manus-storage/trilha-narracao-jardim-encantado-mannuella_301a9798.mp3";
+const NARRATION_SRC = "/manus-storage/narracao-jardim-encantado-mannuella_25637e2c.wav";
 
 export default function Home() {
   const [page, setPage] = useState<1 | 2>(1);
@@ -12,6 +13,7 @@ export default function Home() {
   const [isOpening, setIsOpening] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const narrationRef = useRef<HTMLAudioElement | null>(null);
   const whatsappUrl = useMemo(() => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(RSVP_MESSAGE)}`, []);
 
   useEffect(() => {
@@ -19,6 +21,13 @@ export default function Home() {
     if (!audio) return;
     audio.volume = 0.2;
     audio.loop = true;
+    const narration = narrationRef.current;
+    if (narration) {
+      narration.volume = 1;
+      const handleNarrationEnded = () => { audio.volume = 0.2; };
+      narration.addEventListener("ended", handleNarrationEnded);
+      return () => narration.removeEventListener("ended", handleNarrationEnded);
+    }
     const handleEnded = () => setIsPlaying(false);
     audio.addEventListener("ended", handleEnded);
     return () => audio.removeEventListener("ended", handleEnded);
@@ -29,7 +38,14 @@ export default function Home() {
     setIsOpening(false);
     if (!audio) return;
     try {
-      await audio.play();
+      const narration = narrationRef.current;
+      audio.volume = 0.08;
+      if (narration) {
+        narration.currentTime = 0;
+        await Promise.all([audio.play(), narration.play()]);
+      } else {
+        await audio.play();
+      }
       setIsPlaying(true);
     } catch {
       setIsPlaying(false);
@@ -41,13 +57,16 @@ export default function Home() {
     if (!audio) return;
     if (audio.paused) {
       try {
+        const narration = narrationRef.current;
         await audio.play();
+        if (narration && !narration.ended) await narration.play();
         setIsPlaying(true);
       } catch {
         setIsPlaying(false);
       }
     } else {
       audio.pause();
+      narrationRef.current?.pause();
       setIsPlaying(false);
     }
   };
@@ -58,6 +77,7 @@ export default function Home() {
   return (
     <>
       <audio ref={audioRef} src={MUSIC_SRC} preload="none" aria-hidden="true" />
+      <audio ref={narrationRef} src={NARRATION_SRC} preload="none" aria-hidden="true" />
       {isOpening && (
         <div className="garden-splash" role="dialog" aria-modal="true" aria-label="Abrir convite">
           <div className="splash-petal petal-a">✿</div>

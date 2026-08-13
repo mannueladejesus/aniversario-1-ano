@@ -1,7 +1,7 @@
-# Tarefas — Imagem completa na primeira página
+# Tarefas — Acabamento profissional da primeira página
 
-- [x] Ajustar a proporção do quadro da primeira página.
-- [x] Mostrar as duas asas completas sem cortes.
-- [x] Manter a borboleta e o Jardim Encantado.
+- [x] Remover a faixa clara acima da imagem.
+- [x] Remover a faixa clara abaixo da imagem.
+- [x] Manter as asas e a borboleta visíveis.
 - [x] Não alterar a segunda página.
-- [x] Validar em celular e navegador e publicar.
+- [x] Validar e publicar a melhoria.

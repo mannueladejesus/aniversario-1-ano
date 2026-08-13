@@ -58,3 +58,16 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 @keyframes fall { 0% { transform: translateY(-30px) rotate(0); opacity: 0; } 18% { opacity: .7; } 100% { transform: translateY(720px) rotate(240deg); opacity: 0; } }
 @media (max-width: 760px) { .address-card { padding: 30px 22px 38px; border-radius: 2.4rem .9rem 2.4rem .9rem; } .address-card h1 { font-size: clamp(3rem, 15vw, 4.5rem); } .address-box { align-items: flex-start; padding: 18px 16px; } .address-box strong { font-size: .95rem; } .address-box span:not(.detail-label) { font-size: .83rem; } .address-note { font-size: .94rem; } .brand-seal { right: 20px; top: 18px; width: 82px; height: 82px; } .brand-seal strong { font-size: 2.65rem; } .brand-seal small { font-size: .72rem; } h1 { max-width: 100%; font-size: clamp(3.4rem, 16vw, 5.2rem); line-height: .9; } .hero-description { max-width: 34rem; margin-top: 22px; font-size: 1rem; line-height: 1.62; } .kicker { max-width: 17rem; font-size: .84rem; } .invitation-shell { padding: 14px 12px 18px; } .hero-panel { display: flex; flex-direction: column-reverse; min-height: unset; border-radius: 2.4rem 1rem 2.4rem 1rem; } .hero-art { width: 100%; min-height: 300px; height: 300px; } .hero-copy { padding: 31px 26px 38px; } .brand-mark { margin-top: 25px; } .detail-grid { grid-template-columns: 1fr; } .details-panel { padding: 34px 3px 28px; } .rsvp-panel { display: block; padding: 30px 27px 34px; border-radius: 1rem 2.5rem 1rem 2.5rem; } .rsvp-content { padding: 34px 0 8px; } .pattern-stamp { position: absolute; width: 150px; height: 150px; right: -25px; bottom: -35px; opacity: .42; } .footer-line { font-size: .56rem; } }
 @media (max-width: 760px) { .natural-scene { min-height: 0; height: auto; background: #f6ead9; } .natural-scene-image { width: 100%; height: auto; object-fit: contain; object-position: center; animation: none; } .scene-glint { font-size: .85rem; } .mannuela-fairy { left: -5%; right: -5%; bottom: -2%; height: 96%; } .fairy-sparkle { font-size: 1rem; } } @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; } .page-two-link, .brand-seal, .brand-seal::before, .brand-seal::after { animation: none; } .magic-burst { display: none; } }
+
+/* Refinamento da primeira página: a imagem usa sua proporção vertical natural para cobrir o quadro sem faixas artificiais e sem cortar as asas. */
+.first-page-panel { min-height: 0; }
+.first-page-panel .hero-art { min-height: 0; height: auto; aspect-ratio: 3 / 4; }
+.first-page-panel .natural-scene::before { display: none; }
+.first-page-panel .natural-scene-image { object-fit: contain; }
+@media (max-width: 760px) {
+  .first-page-panel .hero-art { min-height: 0; height: auto; aspect-ratio: 3 / 4; }
+  .first-page-panel .natural-scene-image { object-fit: contain; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .first-page-panel .natural-scene-image { animation: none; }
+}

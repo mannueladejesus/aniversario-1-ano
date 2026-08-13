@@ -20,7 +20,7 @@ export default function Home() {
         <>
           <section className="hero-panel first-page-panel">
             <div className="hero-art natural-scene" aria-label="Mannuella alcançando uma borboleta em um jardim encantado">
-              <img className="natural-scene-image" src="/manus-storage/mannuella-primeira-pagina-asas-borboleta_878717ff.png" alt="Mannuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
+              <img className="natural-scene-image" src="/manus-storage/mannuella-primeira-pagina-outpainting_b79100ba.png" alt="Mannuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
               <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
             </div>
             <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>

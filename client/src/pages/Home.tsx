@@ -63,7 +63,7 @@ export default function Home() {
           <div className="splash-petal petal-a">✿</div>
           <div className="splash-petal petal-b">❀</div>
           <div className="splash-cover-wrap">
-            <img className="splash-cover-image" src="/manus-storage/capa-abertura-mannuella-jardim_999867ee.png" alt="Capa do convite: Um jardim encantado espera por você, com Mannuella como fadinha em um jardim florido." />
+            <img className="splash-cover-image" src="/manus-storage/capa-abertura-mannuella-preenchida_63e874e0.png" alt="Capa do convite: Um jardim encantado espera por você, com Mannuella como fadinha em um jardim florido." />
             <button className="splash-cover-button" type="button" onClick={startExperience} aria-label="Toque para abrir o convite e iniciar a música" />
           </div>
         </div>

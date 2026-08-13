@@ -142,9 +142,9 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 
 
 /* Capa enviada pelo usuário: a arte completa é preservada em proporção vertical; a CTA original recebe uma área de toque funcional sem duplicar texto. */
-.splash-cover-wrap { position: relative; width: min(100%, 560px); height: min(92vh, 820px); display: grid; place-items: center; overflow: hidden; border-radius: 2.4rem 1rem 2.4rem 1rem; box-shadow: 0 24px 80px rgba(83,62,70,.2); }
-.splash-cover-image { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.splash-cover-wrap { position: relative; width: min(100%, 560px, calc(92vh * .75)); aspect-ratio: 3 / 4; display: grid; place-items: center; overflow: hidden; border-radius: 2.4rem 1rem 2.4rem 1rem; box-shadow: 0 24px 80px rgba(83,62,70,.2); }
+.splash-cover-image { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .splash-cover-button { position: absolute; left: 22%; right: 22%; bottom: 5.6%; height: 8.5%; border: 0; border-radius: 999px; background: transparent; cursor: pointer; }
 .splash-cover-button:hover { box-shadow: 0 0 0 8px rgba(255,250,241,.18); }
 .splash-cover-button:focus-visible { outline: 3px solid var(--berry); outline-offset: 5px; background: rgba(255,250,241,.12); }
-@media (max-width: 600px) { .splash-cover-wrap { width: min(100%, 560px); height: 94vh; border-radius: 1.5rem .7rem 1.5rem .7rem; } .splash-cover-button { left: 21%; right: 21%; bottom: 5%; height: 9%; } }
+@media (max-width: 600px) { .splash-cover-wrap { width: min(100%, calc(94vh * .75)); aspect-ratio: 3 / 4; border-radius: 1.5rem .7rem 1.5rem .7rem; } .splash-cover-button { left: 21%; right: 21%; bottom: 5%; height: 9%; } }

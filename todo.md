@@ -1,3 +1,8 @@
+# Tarefas — Correção de preenchimento da capa
+
+- [x] Ajustar o enquadramento para preencher 100% da abertura sem deformação.
+- [x] Validar desktop e mobile e publicar a correção.
+
 # Tarefas — Atualização da capa de abertura
 
 - [x] Copiar e enviar a nova capa vertical para o armazenamento do projeto.
@@ -13,3 +18,5 @@
 - [x] Adicionar controle discreto de pausar e retomar.
 - [x] Preservar o estado da música durante a navegação.
 - [x] Testar celular, navegador e build e publicar.
+
+Validação visual: a capa outpainted agora preenche integralmente o próprio quadro 3:4 em desktop e mobile, sem faixas internas superior ou inferior. A Mannuella, as asas, o texto e o botão permanecem visíveis e proporcionais; as margens restantes são apenas o fundo externo da tela, não bordas da imagem.

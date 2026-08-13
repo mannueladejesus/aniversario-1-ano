@@ -39,7 +39,7 @@
 # Tarefas — Balão central de 1 aninho
 
 - [x] Mover o balão para o topo central.
-- [x] Garantir que “Mannuella de Jesus” permaneça totalmente visível.
+- [x] Garantir que “Mannuella” permaneça totalmente visível.
 - [x] Validar responsividade e publicar.
 
 # Tarefas — Balão de 1 aninho
@@ -149,3 +149,8 @@ Validação externa: a branch main do GitHub contém Home.tsx com referências /
 - [x] Adicionar metadados Open Graph e Twitter Card.
 - [x] Usar a capa pública como imagem de prévia.
 - [x] Validar build e publicar.
+
+# Tarefas — Nome curto da aniversariante
+
+- [x] Localizar e substituir o nome completo pelo nome “Mannuella” em todo o projeto.
+- [x] Validar textos, metadados, build e publicar.

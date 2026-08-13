@@ -126,6 +126,12 @@ Validação visual: a capa outpainted agora preenche integralmente o próprio qu
 
 # Tarefas — Envio para Git remoto
 
-- [ ] Verificar Git local, remote e branch.
-- [ ] Criar commit com todo o projeto necessário.
-- [ ] Enviar para https://github.com/mannueladejesus/aniversario-1-ano.git e confirmar.
+- [x] Verificar Git local, remote e branch.
+- [x] Criar commit com todo o projeto necessário.
+- [x] Enviar para https://github.com/mannueladejesus/aniversario-1-ano.git e confirmar.
+
+# Tarefas — Correção do deploy externo
+
+- [ ] Auditar por que o host externo está servindo server/index.ts.
+- [ ] Corrigir configuração de saída e comando de inicialização para servir dist/public.
+- [ ] Validar o deploy e confirmar a aplicação no domínio externo.

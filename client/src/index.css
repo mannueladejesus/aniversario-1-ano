@@ -71,3 +71,20 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 @media (prefers-reduced-motion: reduce) {
   .first-page-panel .natural-scene-image { animation: none; }
 }
+
+/* Regra consistente para fotos expandidas: preservar a imagem inteira e usar o cenário outpainted, sem object-fit: cover. */
+.information-page .information-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+@media (max-width: 760px) {
+  .information-page .information-photo {
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
+  }
+}

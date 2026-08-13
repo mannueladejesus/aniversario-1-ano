@@ -40,7 +40,7 @@ export default function Home() {
         <>
           <section className="address-card information-page">
             <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}>← voltar ao convite</button>
-            <img className="information-photo" src="/manus-storage/mannuella-segunda-pagina-jardim_23cfeb2f.png" alt="Mannuella como fadinha em um Jardim Encantado" />
+            <img className="information-photo" src="/manus-storage/mannuella-segunda-pagina-outpainting_bb2ab0b5.png" alt="Mannuella como fadinha em um Jardim Encantado" />
             <img className="address-mark" src="/manus-storage/mannuela-logo_17abc672.png" alt="" />
             <p className="kicker">O jardim da Mannuella espera por você</p>
             <h1>Informações<br /><em>da celebração</em></h1>

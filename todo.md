@@ -1,7 +1,7 @@
-# Tarefas — Outpainting da primeira página
+# Tarefas — Outpainting em todas as páginas
 
-- [x] Preparar a imagem original sem cortar ou deformar a criança.
-- [x] Expandir generativamente apenas o cenário acima e abaixo.
-- [x] Manter criança, vestido, asas, borboleta, luz e elementos originais intactos.
-- [x] Integrar a imagem expandida somente na primeira página.
-- [x] Validar celular e navegador e publicar.
+- [x] Preparar a foto original da segunda página sem cortar ou deformar.
+- [x] Expandir generativamente o Jardim Encantado ao redor da foto.
+- [x] Integrar a nova composição na segunda página.
+- [x] Padronizar fotos para não usar cortes, esticamento ou faixas artificiais.
+- [x] Validar todas as páginas em celular e navegador e publicar.

@@ -1,3 +1,8 @@
+# Tarefas — Visibilidade da Mannuella na segunda página
+
+- [x] Reforçar a presença da Mannuella no jardim sem perder a leitura dos textos.
+- [x] Validar desktop/mobile e publicar.
+
 # Tarefas — Reforço da Mannuella na segunda página
 
 - [x] Aumentar a presença visual da Mannuella sem perder o efeito suave.

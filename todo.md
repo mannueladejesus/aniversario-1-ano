@@ -20,7 +20,7 @@
 
 # Tarefas — Reequilíbrio visual e adaptação mobile
 
-- [x] Reduzir cobertura das caixas e revelar a Mannuella no jardim.
+- [x] Reduzir cobertura das caixas e revelar a Manuella no jardim.
 - [x] Adaptar capa, segunda página, botões, textos e música para mobile.
 - [x] Validar em mobile e desktop e publicar.
 
@@ -39,7 +39,7 @@
 # Tarefas — Balão central de 1 aninho
 
 - [x] Mover o balão para o topo central.
-- [x] Garantir que “Mannuella” permaneça totalmente visível.
+- [x] Garantir que “Manuella” permaneça totalmente visível.
 - [x] Validar responsividade e publicar.
 
 # Tarefas — Balão de 1 aninho
@@ -51,7 +51,7 @@
 # Tarefas — Remoção do desenho verde
 
 - [x] Localizar e remover todas as ocorrências do desenho verde.
-- [x] Validar que Mannuella, textos e funcionalidades permanecem intactos.
+- [x] Validar que Manuella, textos e funcionalidades permanecem intactos.
 - [x] Publicar a correção.
 
 # Tarefas — Enquadramento integral da segunda página
@@ -72,14 +72,14 @@
 - [x] Manter uma camada clara mínima apenas para leitura dos textos.
 - [x] Validar nitidez e publicar.
 
-# Tarefas — Visibilidade da Mannuella na segunda página
+# Tarefas — Visibilidade da Manuella na segunda página
 
-- [x] Reforçar a presença da Mannuella no jardim sem perder a leitura dos textos.
+- [x] Reforçar a presença da Manuella no jardim sem perder a leitura dos textos.
 - [x] Validar desktop/mobile e publicar.
 
-# Tarefas — Reforço da Mannuella na segunda página
+# Tarefas — Reforço da Manuella na segunda página
 
-- [x] Aumentar a presença visual da Mannuella sem perder o efeito suave.
+- [x] Aumentar a presença visual da Manuella sem perder o efeito suave.
 - [x] Preservar a legibilidade das informações e validar o build.
 
 # Tarefas — Refinamento conforme arquivo enviado
@@ -122,7 +122,7 @@
 - [x] Preservar o estado da música durante a navegação.
 - [x] Testar celular, navegador e build e publicar.
 
-Validação visual: a capa outpainted agora preenche integralmente o próprio quadro 3:4 em desktop e mobile, sem faixas internas superior ou inferior. A Mannuella, as asas, o texto e o botão permanecem visíveis e proporcionais; as margens restantes são apenas o fundo externo da tela, não bordas da imagem.
+Validação visual: a capa outpainted agora preenche integralmente o próprio quadro 3:4 em desktop e mobile, sem faixas internas superior ou inferior. A Manuella, as asas, o texto e o botão permanecem visíveis e proporcionais; as margens restantes são apenas o fundo externo da tela, não bordas da imagem.
 
 # Tarefas — Envio para Git remoto
 
@@ -152,7 +152,7 @@ Validação externa: a branch main do GitHub contém Home.tsx com referências /
 
 # Tarefas — Nome curto da aniversariante
 
-- [x] Localizar e substituir o nome completo pelo nome “Mannuella” em todo o projeto.
+- [x] Localizar e substituir o nome completo pelo nome “Manuella” em todo o projeto.
 - [x] Validar textos, metadados, build e publicar.
 
 # Tarefas — Remoção do sobrenome nas artes
@@ -166,3 +166,15 @@ Validação externa: a branch main do GitHub contém Home.tsx com referências /
 - [x] Preparar e otimizar a nova imagem vertical enviada.
 - [x] Remover textos/cards da segunda página e manter somente os botões existentes.
 - [x] Validar enquadramento, botões, áudio e mobile e publicar.
+
+# Tarefas — Botões em áreas seguras
+
+- [x] Tirar o botão de retorno da frente da borboleta e do texto superior.
+- [x] Tirar o botão do WhatsApp da frente do texto/status e criar zona inferior segura.
+- [x] Validar desktop/mobile e publicar.
+
+# Tarefas — Grafia correta do nome
+
+- [x] Substituir variações incorretas por “Manuella” em textos, metadados e mensagens.
+- [x] Corrigir a grafia incorporada nas artes visuais.
+- [x] Validar build e publicar no Manus e no GitHub.

@@ -185,3 +185,13 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
   .image-back-button { top: max(12px, env(safe-area-inset-top)); font-size: .72rem; padding: 9px 13px; }
   .image-rsvp-button { bottom: max(14px, env(safe-area-inset-bottom)); max-width: calc(100% - 28px); padding: 11px 14px; font-size: .78rem; }
 }
+
+/* Controles sobre a arte: posicionados nas margens livres, sem cobrir borboleta, pedras informativas ou status. */
+.image-back-button { top: clamp(18px, 4vh, 42px); left: clamp(14px, 4vw, 48px); right: auto; transform: none; }
+.image-back-button:hover { transform: translateY(-3px); }
+.image-rsvp-button { left: auto; right: clamp(12px, 4vw, 48px); bottom: max(24px, env(safe-area-inset-bottom)); transform: none; max-width: min(230px, 42vw); padding: 11px 14px; font-size: .78rem; }
+.image-rsvp-button:hover { transform: translateY(-2px); }
+@media (max-width: 760px) {
+  .image-back-button { top: max(12px, env(safe-area-inset-top)); left: 12px; font-size: .68rem; padding: 8px 11px; }
+  .image-rsvp-button { right: 10px; bottom: max(14px, env(safe-area-inset-bottom)); max-width: 46vw; padding: 9px 10px; font-size: .67rem; line-height: 1.15; white-space: normal; }
+}

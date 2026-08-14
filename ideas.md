@@ -1,4 +1,4 @@
-# Direção criativa — Convite da Mannuela
+# Direção criativa — Convite da Manuella
 
 ## Abordagens iniciais
 
@@ -46,12 +46,12 @@ Borboletas fazem movimentos lentos e sinuosos, flores caem com baixa frequência
 Títulos em **Baloo 2**, com peso forte e formas arredondadas. Textos corridos em **Nunito**, para leitura confortável. Trechos de código em **Space Mono**, usados como pequenos acentos e nunca como corpo principal.
 
 ### Brand Essence
-Um convite-jardim interativo para celebrar o primeiro grande upgrade da Mannuela, feito para famílias que gostam de afeto, criatividade e um toque geek. Personalidade: **curiosa, doce, inventiva**.
+Um convite-jardim interativo para celebrar o primeiro grande upgrade da Manuella, feito para famílias que gostam de afeto, criatividade e um toque geek. Personalidade: **curiosa, doce, inventiva**.
 
 ### Brand Voice
 As manchetes soam como pequenas descobertas; os CTAs são calorosos e brincalhões; o microcopy mistura carinho com sintaxe simples. Evitar frases genéricas e preferir imagens concretas.
 
-Exemplo 1: “A florzinha Mannuela acaba de liberar uma nova versão: 1.0!”
+Exemplo 1: “A florzinha Manuella acaba de liberar uma nova versão: 1.0!”
 
 Exemplo 2: “Clique para compilar seu abraço e confirmar presença no jardim.”
 
@@ -59,14 +59,14 @@ Exemplo 2: “Clique para compilar seu abraço e confirmar presença no jardim.�
 Um símbolo sem texto formado por uma flor de cinco pétalas, sendo uma pétala desenhada como cursor de mouse e outra como chave de abertura `{`. O miolo tem um pequeno ponto de luz, remetendo ao primeiro “build” da vida.
 
 ### Signature Brand Color
-**Menta Mannuela — `#8FC9B1`**, um verde menta luminoso e afetivo que une folha, interface e frescor infantil.
+**Menta Manuella — `#8FC9B1`**, um verde menta luminoso e afetivo que une folha, interface e frescor infantil.
 
 ## Regra de decisão
 Antes de cada escolha visual ou textual, perguntar: **“Isso reforça ou dilui o Jardim de Código em Aquarela?”**
 
 ## Style Decisions
 
-- A área de RSVP usa o Menta Mannuela como tinta sobre papel, com textura, moldura irregular e uma etiqueta `rsvp` para evitar aparência de painel SaaS.
+- A área de RSVP usa o Menta Manuella como tinta sobre papel, com textura, moldura irregular e uma etiqueta `rsvp` para evitar aparência de painel SaaS.
 - Informações ainda não preenchidas aparecem como “horário a confirmar” e “endereço a confirmar”, preservando o encanto do convite sem expor placeholders técnicos na interface.
 - O código foi transformado em linguagem botânica recorrente: selo `M 01`, sementes pontilhadas, chaves e a etiqueta “semente de carinho”.
-- O símbolo floral recebeu um selo celebrativo mais visível, reforçando a assinatura da Mannuela.
+- O símbolo floral recebeu um selo celebrativo mais visível, reforçando a assinatura da Manuella.

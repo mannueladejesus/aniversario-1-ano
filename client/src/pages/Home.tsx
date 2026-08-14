@@ -110,15 +110,10 @@ export default function Home() {
             <footer className="footer-line"><span>feito com amor</span><span>✦</span><span>página 01 • convite</span></footer>
           </>
         ) : (
-          <section className="address-card information-page">
-            <button className="back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}><span className="return-garden-mark" aria-hidden="true">✿</span><span>← voltar ao convite</span></button>
-            <p className="kicker">✦ um dia para florescer juntos ✦</p>
-            <h1>Informações<br /><em>da celebração</em></h1>
-            <div className="address-divider">✦　✿　✦</div>
-            <div className="address-box"><div><span className="detail-label">data da celebração</span><strong>03/10/2026</strong><span className="detail-label address-location-label">local da celebração</span><strong>Rua Giuseppe Piermarini, 521</strong><span>Jardim Icaraí · São Paulo — SP</span><span>CEP 04844-190</span></div></div>
-            <p className="address-note">Entre flores, abraços e muita magia, vamos celebrar o primeiro aninho da nossa pequena Mannuella.</p>
-            <div className="rsvp-note information-status"><span className="code-brace">{`{`}</span><div><span className="detail-label">status</span><strong>{confirmed ? "presença_enviada: true" : "aguardando seu abraço"}</strong></div><span className="code-brace">{`}`}</span></div>
-            <button className="next-button rsvp-button" type="button" onClick={handleConfirm}>{confirmed ? "Presença compilada ✓" : "Confirmar presença no WhatsApp ↗"}</button>
+          <section className="information-page image-only-page" aria-label="Informações da celebração em imagem">
+            <img className="second-page-full-art" src="/assets/segunda-pagina-mannuella-completa.webp" alt="Mannuella em um Jardim Encantado com a data, endereço e mensagem da celebração" />
+            <button className="back-button image-overlay-button image-back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}><span className="return-garden-mark" aria-hidden="true">✿</span><span>← voltar ao convite</span></button>
+            <button className="next-button rsvp-button image-overlay-button image-rsvp-button" type="button" onClick={handleConfirm}>{confirmed ? "Presença compilada ✓" : "Confirmar presença no WhatsApp ↗"}</button>
           </section>
         )}
       </main>

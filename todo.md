@@ -160,3 +160,9 @@ Validação externa: a branch main do GitHub contém Home.tsx com referências /
 - [x] Editar a capa para remover “de Jesus” do título e do texto superior.
 - [x] Editar a arte da segunda página para remover as ocorrências visuais do sobrenome.
 - [x] Substituir assets, validar e publicar.
+
+# Tarefas — Segunda página em imagem
+
+- [x] Preparar e otimizar a nova imagem vertical enviada.
+- [x] Remover textos/cards da segunda página e manter somente os botões existentes.
+- [x] Validar enquadramento, botões, áudio e mobile e publicar.

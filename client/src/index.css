@@ -170,3 +170,18 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 
 /* Segunda página: data integrada ao endereço, com separação visual compacta e responsiva. */
 .information-page .address-location-label { display: block; margin-top: 14px; }
+
+/* Segunda página em arte integral: a imagem enviada contém todas as informações; somente os controles interativos ficam sobrepostos. */
+.image-only-page { position: relative; display: block; min-height: 100svh; padding: 0; overflow: hidden; background: #ead0bf; }
+.second-page-full-art { display: block; width: 100%; height: 100svh; min-height: 640px; object-fit: contain; object-position: center; background: #ead0bf; }
+.image-overlay-button { position: absolute; z-index: 3; margin: 0; }
+.image-back-button { top: clamp(18px, 4vw, 42px); left: 50%; transform: translateX(-50%); }
+.image-back-button:hover { transform: translateX(-50%) translateY(-3px); }
+.image-rsvp-button { left: 50%; bottom: max(24px, env(safe-area-inset-bottom)); transform: translateX(-50%); white-space: nowrap; }
+.image-rsvp-button:hover { transform: translateX(-50%) translateY(-2px); }
+@media (max-width: 760px) {
+  .image-only-page { min-height: 100svh; }
+  .second-page-full-art { height: 100svh; min-height: 0; object-fit: contain; }
+  .image-back-button { top: max(12px, env(safe-area-inset-top)); font-size: .72rem; padding: 9px 13px; }
+  .image-rsvp-button { bottom: max(14px, env(safe-area-inset-bottom)); max-width: calc(100% - 28px); padding: 11px 14px; font-size: .78rem; }
+}

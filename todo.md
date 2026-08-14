@@ -178,3 +178,10 @@ Validação externa: a branch main do GitHub contém Home.tsx com referências /
 - [x] Substituir variações incorretas por “Manuella” em textos, metadados e mensagens.
 - [x] Corrigir a grafia incorporada nas artes visuais.
 - [x] Validar build e publicar no Manus e no GitHub.
+
+# Tarefas — Prévia do WhatsApp
+
+- [ ] Atualizar título Open Graph para identificar o convite de aniversário de 1 aninho da Manuella.
+- [ ] Garantir que a foto correta da Manuella seja usada na imagem da prévia.
+- [ ] Validar os metadados, o build e publicar a atualização.
+- [ ] Sincronizar a alteração com o repositório GitHub.

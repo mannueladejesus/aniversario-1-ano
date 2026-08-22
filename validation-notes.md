@@ -24,3 +24,11 @@ O slug do projeto e nomes históricos de arquivos ainda contêm `mannuela` por c
 - A capa de abertura deve preservar a composição original e alterar somente a grafia incorporada.
 - A segunda página permanece uma imagem integral com apenas os controles interativos sobrepostos.
 
+
+## Auditoria do zoom por pinça — 22/08/2026
+
+A capa de abertura continua visível em mobile e mantém o botão de toque funcional. O aviso discreto `pinça para ampliar` aparece dentro das imagens. Após abrir o convite, a imagem principal recebe o mesmo componente de zoom, enquanto o CTA de informações permanece fora da área da imagem. A segunda página também passou a renderizar o aviso de zoom; seus botões continuam com camada superior, separados da superfície interativa da imagem.
+
+O componente implementa Pointer Events para dois dedos, arraste com zoom, duplo clique, roda do mouse, teclado (`+`, `-`, `0`, `Escape`) e foco acessível. A validação de gesto multi-touch em dispositivo físico ainda deve ser feita em um celular real, pois o preview automatizado não simula duas pontas de toque simultâneas.
+
+O teste automatizado no preview confirmou que o foco entra na superfície de zoom, a tecla `=` aumenta a escala para 1.3924 e os botões `← voltar ao convite`, `Confirmar presença no WhatsApp ↗` e o controle de música continuam presentes no DOM. A primeira leitura ocorreu antes do próximo render; após aguardar 120 ms, a transformação foi confirmada.

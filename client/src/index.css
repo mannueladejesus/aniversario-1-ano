@@ -141,8 +141,25 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 @media (prefers-reduced-motion: reduce) { .garden-splash, .splash-button, .splash-butterfly, .splash-petal, .music-toggle.is-playing > span { animation: none; } }
 
 
+/* Zoom por pinça no Jardim de Código em Aquarela: ampliar sem cortar, arrastar sem bloquear CTAs e manter foco visível. */
+.pinch-zoom-surface { position: relative; width: 100%; height: 100%; overflow: hidden; touch-action: none; cursor: zoom-in; outline: none; }
+.pinch-zoom-surface:active { cursor: grabbing; }
+.pinch-zoom-surface:focus-visible { outline: 3px solid var(--mint); outline-offset: -3px; }
+.pinch-zoom-content { width: 100%; height: 100%; transform-origin: center center; will-change: transform; transition: transform .16s cubic-bezier(.23,1,.32,1); }
+.pinch-zoom-content > img { user-select: none; -webkit-user-drag: none; }
+.pinch-zoom-hint { position: absolute; left: 50%; bottom: 14px; z-index: 4; transform: translateX(-50%); padding: 6px 10px; border: 1px solid rgba(255,250,241,.45); border-radius: 999px; color: rgba(77,58,74,.82); background: rgba(255,250,241,.76); box-shadow: 0 5px 16px rgba(83,62,70,.12); font-family: 'Space Mono', monospace; font-size: .58rem; letter-spacing: .02em; opacity: .82; pointer-events: none; transition: opacity .3s ease; }
+.pinch-zoom-surface:hover .pinch-zoom-hint, .pinch-zoom-surface:focus-visible .pinch-zoom-hint { opacity: 1; }
+.splash-cover-zoom { position: absolute; inset: 0; }
+.splash-cover-zoom .pinch-zoom-hint { bottom: 13%; color: rgba(77,58,74,.72); background: rgba(255,250,241,.6); }
+.natural-scene-zoom { position: absolute; inset: 0; z-index: 1; }
+.natural-scene-zoom .pinch-zoom-content { position: relative; }
+.second-page-art-zoom { position: absolute; inset: 0; z-index: 1; }
+.second-page-art-zoom .pinch-zoom-hint { bottom: 18px; }
+
 /* Capa enviada pelo usuário: a arte completa é preservada em proporção vertical; a CTA original recebe uma área de toque funcional sem duplicar texto. */
 .splash-cover-wrap { position: relative; width: min(100%, 560px, calc(92vh * .75)); aspect-ratio: 3 / 4; display: grid; place-items: center; overflow: hidden; border-radius: 2.4rem 1rem 2.4rem 1rem; box-shadow: 0 24px 80px rgba(83,62,70,.2); }
+.splash-cover-zoom .pinch-zoom-content, .splash-cover-zoom .splash-cover-image { width: 100%; height: 100%; }
+.splash-cover-zoom .splash-cover-image { object-fit: cover; object-position: center; }
 .splash-cover-image { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .splash-cover-button { position: absolute; left: 22%; right: 22%; bottom: 5.6%; height: 8.5%; border: 0; border-radius: 999px; background: transparent; cursor: pointer; }
 .splash-cover-button:hover { box-shadow: 0 0 0 8px rgba(255,250,241,.18); }
@@ -173,7 +190,8 @@ h2 { font-size: clamp(3.1rem, 6vw, 5.5rem); }
 
 /* Segunda página em arte integral: a imagem enviada contém todas as informações; somente os controles interativos ficam sobrepostos. */
 .image-only-page { position: relative; display: block; min-height: 100svh; padding: 0; overflow: hidden; background: #ead0bf; }
-.second-page-full-art { display: block; width: 100%; height: 100svh; min-height: 640px; object-fit: contain; object-position: center; background: #ead0bf; }
+.second-page-full-art { display: block; width: 100%; height: 100%; min-height: 640px; object-fit: contain; object-position: center; background: #ead0bf; }
+.second-page-art-zoom .pinch-zoom-content { display: grid; place-items: center; }
 .image-overlay-button { position: absolute; z-index: 3; margin: 0; }
 .image-back-button { top: clamp(18px, 4vw, 42px); left: 50%; transform: translateX(-50%); }
 .image-back-button:hover { transform: translateX(-50%) translateY(-3px); }

@@ -185,3 +185,36 @@ Validação externa: a branch main do GitHub contém Home.tsx com referências /
 - [ ] Garantir que a foto correta da Manuella seja usada na imagem da prévia.
 - [ ] Validar os metadados, o build e publicar a atualização.
 - [ ] Sincronizar a alteração com o repositório GitHub.
+
+# Tarefas — Alteração da data para 04/10/2026
+
+- [ ] Localizar todas as ocorrências de 03/10/2026 no código, metadados e artes.
+- [ ] Atualizar a data visível para 04/10/2026, incluindo a imagem da segunda página.
+- [ ] Validar que 04/10/2026 cai em um domingo.
+- [ ] Testar build, publicar e sincronizar com o GitHub.
+
+# Tarefas — Nova trilha orquestral original
+
+- [ ] Criar uma trilha instrumental orquestral original com clima romântico e encantado.
+- [ ] Substituir a música de fundo mantendo a narração e o ducking.
+- [ ] Validar áudio, build, mobile, publicar e sincronizar com o GitHub.
+
+# Tarefas — Data exibida na segunda página
+
+- [ ] Atualizar a data visível da segunda página para `04.10.2026`.
+- [ ] Preservar a arte integral, os demais textos e os controles interativos.
+- [ ] Validar visualmente junto com a nova trilha orquestral e publicar.
+
+# Tarefas — Áudio reutilizável no GitHub
+
+- [ ] Validar a trilha orquestral original e converter para MP3.
+- [ ] Adicionar o arquivo em uma pasta de áudio reutilizável no repositório.
+- [ ] Documentar o nome e o caminho direto do arquivo.
+- [ ] Enviar a atualização para a branch main e confirmar o link.
+
+# Tarefas — Zoom por gesto de pinça
+
+- [x] Revisar imagens, containers e estilos atuais.
+- [x] Implementar pinça, arraste, zoom por clique/teclado e reset acessível.
+- [x] Integrar nas imagens do convite sem bloquear os botões.
+- [x] Validar mobile, desktop e build; publicar no GitHub.

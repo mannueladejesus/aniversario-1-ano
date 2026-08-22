@@ -1,5 +1,6 @@
 /* Jardim Encantado: composição editorial suave, detalhes de código afetivos e áudio contínuo liberado por interação. */
 import { useEffect, useMemo, useRef, useState } from "react";
+import { PinchZoomImage } from "@/components/PinchZoomImage";
 
 const WHATSAPP_NUMBER = "5511944465965";
 const RSVP_MESSAGE = "Olá! Quero confirmar presença no aniversário de 1 ano da Manuella.";
@@ -83,7 +84,7 @@ export default function Home() {
           <div className="splash-petal petal-a">✿</div>
           <div className="splash-petal petal-b">❀</div>
           <div className="splash-cover-wrap">
-            <img className="splash-cover-image" src="/assets/capa-abertura-mannuella-preenchida.webp" alt="Capa do convite: Um jardim encantado espera por você, com Manuella como fadinha em um jardim florido." />
+            <PinchZoomImage surfaceClassName="splash-cover-zoom" className="splash-cover-image" src="/assets/capa-abertura-mannuella-preenchida.webp" alt="Capa do convite: Um jardim encantado espera por você, com Manuella como fadinha em um jardim florido." ariaLabel="Capa do convite. Use pinça para ampliar a imagem." />
             <button className="splash-cover-button" type="button" onClick={startExperience} aria-label="Toque para abrir o convite e iniciar a música" />
           </div>
         </div>
@@ -94,7 +95,7 @@ export default function Home() {
           <>
             <section className="hero-panel first-page-panel">
               <div className="hero-art natural-scene" aria-label="Manuella alcançando uma borboleta em um jardim encantado">
-                <img className="natural-scene-image" src="/assets/mannuella-primeira-pagina-outpainting.webp" alt="Manuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" />
+                <PinchZoomImage surfaceClassName="natural-scene-zoom" className="natural-scene-image" src="/assets/mannuella-primeira-pagina-outpainting.webp" alt="Manuella inteira como fadinha com asas completas alcançando uma borboleta no Jardim Encantado" ariaLabel="Imagem principal do Jardim Encantado. Use pinça para ampliar." />
                 <span className="scene-glint glint-one">✦</span><span className="scene-glint glint-two">✧</span><span className="scene-glint glint-three">✦</span>
               </div>
               <div className="hero-copy"><span className="brand-seal" aria-label="1 aninho"><span className="seal-flower">✿</span><strong>1</strong><small>aninho</small></span>
@@ -111,7 +112,7 @@ export default function Home() {
           </>
         ) : (
           <section className="information-page image-only-page" aria-label="Informações da celebração em imagem">
-            <img className="second-page-full-art" src="/assets/segunda-pagina-mannuella-completa.webp" alt="Manuella em um Jardim Encantado com a data, endereço e mensagem da celebração" />
+            <PinchZoomImage surfaceClassName="second-page-art-zoom" className="second-page-full-art" src="/assets/segunda-pagina-mannuella-completa.webp" alt="Manuella em um Jardim Encantado com a data, endereço e mensagem da celebração" ariaLabel="Informações da celebração. Use pinça para ampliar a imagem." />
             <button className="back-button image-overlay-button image-back-button" type="button" onClick={() => { setMagicBurst(false); setPage(1); }}><span className="return-garden-mark" aria-hidden="true">✿</span><span>← voltar ao convite</span></button>
             <button className="next-button rsvp-button image-overlay-button image-rsvp-button" type="button" onClick={handleConfirm}>{confirmed ? "Presença compilada ✓" : "Confirmar presença no WhatsApp ↗"}</button>
           </section>
